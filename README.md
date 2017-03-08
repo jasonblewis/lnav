@@ -36,12 +36,10 @@ Installation
 
 Lnav follows the usual GNU style for configuring and installing software:
 
+    $ ./autogen.sh # if you are running from a cloned repository
     $ ./configure
     $ make
     $ sudo make install
-
-__Run ```./autogen.sh``` before running any of the above commands when
-compiling from a cloned repository.__
 
 
 Cygwin users
